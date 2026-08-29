@@ -1,7 +1,1 @@
-(
-    start_on_login: false,
-    show_overlay: false,
-    increment: 50,
-    view_moves: Continuously,
-    enable_mouse_zoom_shortcuts: true,
-)
+/nix/store/pkmjgz6bx6yz05wysljlk4539cn9fbdn-home-manager-files/.config/cosmic/com.system76.CosmicComp/v1/accessibility_zoom

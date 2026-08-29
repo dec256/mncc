@@ -1,10 +1,1 @@
-(
-    save_location: Pictures,
-    choice: Rectangle,
-    last_rectangle: Some((
-        left: 0,
-        top: 0,
-        right: 2048,
-        bottom: 1152,
-    )),
-)
+/nix/store/pkmjgz6bx6yz05wysljlk4539cn9fbdn-home-manager-files/.config/cosmic/com.system76.CosmicPortal/v1/screenshot

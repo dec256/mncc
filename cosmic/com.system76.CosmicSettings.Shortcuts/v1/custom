@@ -1,8 +1,1 @@
-{
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "z",
-    ): Minimize,
-}
+/nix/store/pkmjgz6bx6yz05wysljlk4539cn9fbdn-home-manager-files/.config/cosmic/com.system76.CosmicSettings.Shortcuts/v1/custom

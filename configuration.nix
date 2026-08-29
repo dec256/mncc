@@ -23,8 +23,8 @@
   networking.networkmanager.enable = true;
   services.openssh.enable = true;
 
-  hardware.bluetooth.enable = true;
-  hardware.bluetooth.powerOnBoot = true;
+  hardware.bluetooth.enable = false;
+  #hardware.bluetooth.powerOnBoot = true;
   services.blueman.enable = true;
 
   # --- Virtual Machines ---

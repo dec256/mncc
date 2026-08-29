@@ -1,16 +1,1 @@
-(
-    state: Enabled,
-    click_method: Some(Clickfinger),
-    scroll_config: Some((
-        method: Some(TwoFinger),
-        natural_scroll: None,
-        scroll_button: None,
-        scroll_factor: None,
-    )),
-    tap_config: Some((
-        enabled: true,
-        button_map: Some(LeftRightMiddle),
-        drag: true,
-        drag_lock: false,
-    )),
-)
+/nix/store/pkmjgz6bx6yz05wysljlk4539cn9fbdn-home-manager-files/.config/cosmic/com.system76.CosmicComp/v1/input_touchpad

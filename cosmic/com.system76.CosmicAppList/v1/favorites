@@ -1,9 +1,1 @@
-[
-    "brave-browser",
-    "com.system76.CosmicTerm",
-    "com.system76.CosmicSettings",
-    "com.system76.CosmicFiles",
-    "com.system76.CosmicStore",
-    "jp.nonbili.noutube",
-    "proton.vpn.app.gtk",
-]
+/nix/store/pkmjgz6bx6yz05wysljlk4539cn9fbdn-home-manager-files/.config/cosmic/com.system76.CosmicAppList/v1/favorites

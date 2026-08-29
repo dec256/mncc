@@ -5,9 +5,9 @@
     Music,
     Pictures,
     Videos,
-    Path("/home/decwa/Drive/"),
-    Path("/home/decwa/rust"),
     Path("/home/decwa/Desktop"),
+    Path("/home/decwa/rust"),
+    Path("/home/decwa/Drive"),
+    Path("/home/decwa/Pictures"),
     Path("/home/decwa/delete"),
-    Path("/home/decwa/obsidian"),
 ]

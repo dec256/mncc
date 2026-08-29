@@ -1,8 +1,1 @@
-{
-    "Panel": (
-        force_presentation: Some(Icon),
-    ),
-    "Dock": (
-        force_presentation: Some(Icon),
-    ),
-}
+/nix/store/pkmjgz6bx6yz05wysljlk4539cn9fbdn-home-manager-files/.config/cosmic/com.system76.CosmicPanelButton/v1/configs

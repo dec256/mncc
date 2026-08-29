@@ -1,6 +1,6 @@
 (
     output: "all",
-    source: Path("/etc/nixos/Path.png"),
+    source: Path("/home/decwa/Pictures/nix.png"),
     filter_by_theme: true,
     rotation_frequency: 300,
     filter_method: Lanczos,
