@@ -1,0 +1,147 @@
+[
+    (
+        expression: "32*32",
+        outcome: "1024",
+        decimal_comma: false,
+    ),
+    (
+        expression: "40*15*3",
+        outcome: "1800",
+        decimal_comma: false,
+    ),
+    (
+        expression: "1800/25",
+        outcome: "72",
+        decimal_comma: false,
+    ),
+    (
+        expression: "720*25",
+        outcome: "18000",
+        decimal_comma: false,
+    ),
+    (
+        expression: "3*40*15",
+        outcome: "1800",
+        decimal_comma: false,
+    ),
+    (
+        expression: "1800/25",
+        outcome: "72",
+        decimal_comma: false,
+    ),
+    (
+        expression: "72*25",
+        outcome: "1800",
+        decimal_comma: false,
+    ),
+    (
+        expression: "1800*3",
+        outcome: "5400",
+        decimal_comma: false,
+    ),
+    (
+        expression: "720+5400",
+        outcome: "6120",
+        decimal_comma: false,
+    ),
+    (
+        expression: "40*3",
+        outcome: "120",
+        decimal_comma: false,
+    ),
+    (
+        expression: "120+40*3",
+        outcome: "240",
+        decimal_comma: false,
+    ),
+    (
+        expression: "240+15*3",
+        outcome: "285",
+        decimal_comma: false,
+    ),
+    (
+        expression: "285+15*3",
+        outcome: "330",
+        decimal_comma: false,
+    ),
+    (
+        expression: "330+40*15",
+        outcome: "930",
+        decimal_comma: false,
+    ),
+    (
+        expression: "930/25",
+        outcome: "37.2",
+        decimal_comma: false,
+    ),
+    (
+        expression: "40*15",
+        outcome: "600",
+        decimal_comma: false,
+    ),
+    (
+        expression: "40*15",
+        outcome: "600",
+        decimal_comma: false,
+    ),
+    (
+        expression: "600*3",
+        outcome: "1800",
+        decimal_comma: false,
+    ),
+    (
+        expression: "1800+72",
+        outcome: "1872",
+        decimal_comma: false,
+    ),
+    (
+        expression: "1800+372",
+        outcome: "2172",
+        decimal_comma: false,
+    ),
+    (
+        expression: "112-10*2",
+        outcome: "92",
+        decimal_comma: false,
+    ),
+    (
+        expression: "92-10*2",
+        outcome: "72",
+        decimal_comma: false,
+    ),
+    (
+        expression: "72/24",
+        outcome: "3",
+        decimal_comma: false,
+    ),
+    (
+        expression: "35/7",
+        outcome: "5",
+        decimal_comma: false,
+    ),
+    (
+        expression: "5*2",
+        outcome: "10",
+        decimal_comma: false,
+    ),
+    (
+        expression: "35/7",
+        outcome: "5",
+        decimal_comma: false,
+    ),
+    (
+        expression: "5",
+        outcome: "5",
+        decimal_comma: false,
+    ),
+    (
+        expression: "5*10",
+        outcome: "50",
+        decimal_comma: false,
+    ),
+    (
+        expression: "10/4",
+        outcome: "2.5",
+        decimal_comma: false,
+    ),
+]

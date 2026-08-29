@@ -1,0 +1,8 @@
+{
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "z",
+    ): Minimize,
+}
