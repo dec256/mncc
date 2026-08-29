@@ -153,6 +153,7 @@ hardware.nvidia = {
   # --- Packages ---
   environment.systemPackages = with pkgs; [
     # Basic GUI Apps
+    baobab
     file-roller
     nautilus             
     brave
@@ -217,8 +218,10 @@ home-manager.users."decwa" = { lib, pkgs, ... }: {
     enable = true;
   };
 
- programs.git = {
+  programs.git = {
     enable = true;
+    userName = "dec256";
+    userEmail = "202341919+dec256@users.noreply.github.com";
     aliases = {
       acp = "!f() { git add . && git commit -m \"$1\" && git push; }; f";
     };
