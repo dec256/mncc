@@ -268,7 +268,7 @@ home-manager.users."decwa" = { lib, pkgs, ... }: {
         source = pkgs.fetchFromGitHub {
           owner = "LazyVim";
           repo = "starter";
-          rev = "PASTE_YOUR_PINNED_COMMIT_HERE";
+          rev = "main";
           sha256 = "sha256-QrpnlDD4r1X4C8PqBhQ+S3ar5C+qDrU1Jm/lPqyMIFM=";
         };
         recursive = true;
