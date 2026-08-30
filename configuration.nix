@@ -23,11 +23,11 @@
   networking.networkmanager.enable = true;
   services.openssh.enable = true;
 
-  hardware.bluetooth.enable = false;
-  #hardware.bluetooth.powerOnBoot = true;
-  services.blueman.enable = true;
+  hardware.bluetooth.enable = true;
+  hardware.bluetooth.powerOnBoot = true;
 
   # --- Virtual Machines ---
+  virtualisation.docker.enable = true;
   virtualisation.libvirtd.enable = true;
   programs.virt-manager.enable = true;
 
@@ -105,7 +105,7 @@ hardware.nvidia = {
   users.users."decwa" = {
     isNormalUser = true;
     description = "decwa";
-    extraGroups = [ "networkmanager" "wheel" "video" "audio" "libvirtd" ];
+    extraGroups = [ "networkmanager" "wheel" "video" "audio" "libvirtd" "docker" ];
     shell = pkgs.bash;
     packages = with pkgs; [ ];
   };
@@ -158,7 +158,8 @@ hardware.nvidia = {
     nautilus             
     brave
     networkmanagerapplet 
-    blueman               
+    bluez
+    bluez-tools
     proton-vpn         
     proton-vpn-cli
     cosmic-ext-applet-caffeine
