@@ -219,6 +219,10 @@ home-manager.users."decwa" = { lib, pkgs, ... }: {
     enable = true;
   };
 
+  programs.bash.initExtra = ''
+    fastfetch --structure title:separator:os:de:uptime:kernel --logo-type small
+  '';
+
   programs.git = {
     enable = true;
     userName = "dec256";
