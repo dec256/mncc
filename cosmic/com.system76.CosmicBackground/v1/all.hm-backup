@@ -1,9 +1,1 @@
-(
-    output: "all",
-    source: Path("/home/decwa/Pictures/nix.png"),
-    filter_by_theme: true,
-    rotation_frequency: 300,
-    filter_method: Lanczos,
-    scaling_mode: Zoom,
-    sampling_method: Alphanumeric,
-)
+/nix/store/44sb66cpka7pwmla0gzb1h0ccfdyy8b9-home-manager-files/.config/cosmic/com.system76.CosmicBackground/v1/all.hm-backup
