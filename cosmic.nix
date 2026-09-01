@@ -1,6 +1,8 @@
 {
   home.file.".config/cosmic/com.system76.CosmicAppList/v1/enable_drag_source".text = ''
 true
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicAppList/v1/favorites".text = ''
@@ -13,22 +15,32 @@ true
     "jp.nonbili.noutube",
     "proton.vpn.app.gtk",
 ]
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicAppList/v1/filter_top_levels".text = ''
 None
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicAppletTime/v1/first_day_of_week".text = ''
 0
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicAppletTime/v1/military_time".text = ''
 true
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicAppletTime/v1/show_seconds".text = ''
 true
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicBackground/v1/all".text = ''
@@ -41,10 +53,14 @@ true
     scaling_mode: Zoom,
     sampling_method: Alphanumeric,
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicBackground/v1/same-on-all".text = ''
 true
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/accessibility_zoom".text = ''
@@ -55,6 +71,8 @@ true
     view_moves: Continuously,
     enable_mouse_zoom_shortcuts: true,
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/appearance_settings".text = ''
@@ -63,26 +81,38 @@ true
     clip_tiled_windows: true,
     shadow_tiled_windows: false,
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/autotile".text = ''
 true
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/autotile_behavior".text = ''
 PerWorkspace
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/cursor_follows_focus".text = ''
 false
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/edge_snap_threshold".text = ''
 10
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/focus_follows_cursor".text = ''
 false
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/input_default".text = ''
@@ -93,6 +123,8 @@ false
         speed: 0.6042271248762552,
     )),
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/input_touchpad".text = ''
@@ -112,6 +144,8 @@ false
         drag_lock: false,
     )),
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/workspaces".text = ''
@@ -121,6 +155,8 @@ false
     action_on_typing: r#None,
     workspace_wraparound: true,
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/xkb_config".text = ''
@@ -133,6 +169,8 @@ false
     repeat_delay: 600,
     repeat_rate: 25,
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicFiles/v1/dialog".text = ''
@@ -146,6 +184,8 @@ false
     show_hidden: false,
     view: List,
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicFiles/v1/favorites".text = ''
@@ -162,58 +202,86 @@ false
     Path("/home/decwa/Pictures"),
     Path("/home/decwa/delete"),
 ]
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicIdle/v1/screen_off_time".text = ''
 Some(900000)
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicIdle/v1/suspend_on_ac_time".text = ''
 Some(900000)
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicIdle/v1/suspend_on_battery_time".text = ''
 Some(900000)
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicNotifications/v1/anchor".text = ''
 Top
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicNotifications/v1/do_not_disturb".text = ''
 false
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicNotifications/v1/max_notifications".text = ''
 3
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicNotifications/v1/max_per_app".text = ''
 2
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicNotifications/v1/max_timeout_low".text = ''
 Some(3000)
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicNotifications/v1/max_timeout_normal".text = ''
 Some(5000)
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicNotifications/v1/max_timeout_urgent".text = ''
 None
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/anchor".text = ''
 Bottom
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/anchor_gap".text = ''
 true
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/autohide".text = ''
 OnOverlap
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/autohide_behavior".text = ''
@@ -223,62 +291,92 @@ OnOverlap
     handle_size: 4,
     unhide_delay: 200,
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/autohover_delay_ms".text = ''
 Some(500)
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/background".text = ''
 ThemeDefault
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/border_radius".text = ''
 160
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/exclusive_zone".text = ''
 false
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/expand_to_edges".text = ''
 false
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/keep_style_on_maximize".text = ''
 false
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/keyboard_interactivity".text = ''
 OnDemand
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/layer".text = ''
 Top
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/margin".text = ''
 4
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/name".text = ''
 "Dock"
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/opacity".text = ''
 0.7
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/output".text = ''
 All
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/padding".text = ''
 4
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/padding_overlap".text = ''
 0.5
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/plugins_center".text = ''
@@ -288,38 +386,56 @@ Some([
     "com.system76.CosmicPanelAppButton",
     "com.system76.CosmicAppList",
 ])
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/plugins_wings".text = ''
 None
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/size".text = ''
 L
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/size_center".text = ''
 None
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/size_wings".text = ''
 None
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/spacing".text = ''
 0
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/anchor".text = ''
 Top
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/anchor_gap".text = ''
 false
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/autohide".text = ''
 Never
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/autohide_behavior".text = ''
@@ -329,68 +445,100 @@ Never
     handle_size: 4,
     unhide_delay: 200,
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/autohover_delay_ms".text = ''
 Some(500)
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/background".text = ''
 ThemeDefault
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/border_radius".text = ''
 0
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/exclusive_zone".text = ''
 true
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/expand_to_edges".text = ''
 true
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/keep_style_on_maximize".text = ''
 false
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/keyboard_interactivity".text = ''
 OnDemand
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/layer".text = ''
 Top
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/margin".text = ''
 0
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/name".text = ''
 "Panel"
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/opacity".text = ''
 0.7
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/output".text = ''
 All
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/padding".text = ''
 0
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/padding_overlap".text = ''
 0.5
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/plugins_center".text = ''
 Some([
     "com.system76.CosmicAppletTime",
 ])
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/plugins_wings".text = ''
@@ -411,22 +559,32 @@ Some(([
     "com.system76.CosmicAppletNotifications",
     "com.system76.CosmicAppletPower",
 ]))
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/size".text = ''
 XS
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/size_center".text = ''
 None
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/size_wings".text = ''
 None
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/spacing".text = ''
 0
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel/v1/entries".text = ''
@@ -434,6 +592,8 @@ None
     "Panel",
     "Dock",
 ]
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanelButton/v1/configs".text = ''
@@ -445,6 +605,8 @@ None
         force_presentation: Some(Icon),
     ),
 }
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPortal/v1/screenshot".text = ''
@@ -458,6 +620,8 @@ None
         bottom: 1152,
     )),
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicSettings.Shortcuts/v1/custom".text = ''
@@ -469,6 +633,8 @@ None
         key: "z",
     ): Minimize,
 }
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicSettings.Wallpaper/v1/custom-images".text = ''
@@ -488,32 +654,65 @@ None
     "/home/decwa/Pictures/Path.png",
     "/home/decwa/Pictures/nix.png",
 ]
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicSettings.Wallpaper/v1/rotation-frequency".text = ''
 300
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicSettings/v1/system_locales".text = ''
 [
     "en_GB.UTF-8",
 ]
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTerm/v1/app_theme".text = ''
 System
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTerm/v1/opacity".text = ''
 87
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTerm/v1/show_headerbar".text = ''
 false
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTerm/v1/tab_new_inherit_working_directory".text = ''
 false
+
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark.Builder/v1/bg_color".text = ''
+Some((
+    red: 0.005221679,
+    green: 0.00038915128,
+    blue: 0.07285899,
+    alpha: 1.0,
+))
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark.Builder/v1/neutral_tint".text = ''
+Some((
+    red: 0.00000869083,
+    green: 0.0,
+    blue: 0.52074265,
+))
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark.Builder/v2/bg_color".text = ''
@@ -523,6 +722,8 @@ Some((
     blue: 0.07404572,
     alpha: 1.0,
 ))
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark.Builder/v2/neutral_tint".text = ''
@@ -531,6 +732,1377 @@ Some((
     green: 0.018873796,
     blue: 0.35739714,
 ))
+
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/accent".text = ''
+(
+    base: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    hover: (
+        red: 0.3883028,
+        green: 0.7302636,
+        blue: 0.7773224,
+        alpha: 1.0,
+    ),
+    pressed: (
+        red: 0.23716973,
+        green: 0.45089525,
+        blue: 0.48030698,
+        alpha: 1.0,
+    ),
+    selected: (
+        red: 0.3883028,
+        green: 0.7302636,
+        blue: 0.7773224,
+        alpha: 1.0,
+    ),
+    selected_text: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    focus: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    divider: (
+        red: -0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 1.0,
+    ),
+    on: (
+        red: -0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 1.0,
+    ),
+    disabled: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    on_disabled: (
+        red: 0.19411765,
+        green: 0.40784314,
+        blue: 0.4372549,
+        alpha: 1.0,
+    ),
+    border: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    disabled_border: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 0.5,
+    ),
+)
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/accent_button".text = ''
+(
+    base: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    hover: (
+        red: 0.3883028,
+        green: 0.7302636,
+        blue: 0.7773224,
+        alpha: 1.0,
+    ),
+    pressed: (
+        red: 0.23716973,
+        green: 0.45089525,
+        blue: 0.48030698,
+        alpha: 1.0,
+    ),
+    selected: (
+        red: 0.3883028,
+        green: 0.7302636,
+        blue: 0.7773224,
+        alpha: 1.0,
+    ),
+    selected_text: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    focus: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    divider: (
+        red: 0.0129199885,
+        green: 0.01292001,
+        blue: 0.012919978,
+        alpha: 1.0,
+    ),
+    on: (
+        red: -0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 1.0,
+    ),
+    disabled: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    on_disabled: (
+        red: -0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 0.5,
+    ),
+    border: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    disabled_border: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 0.5,
+    ),
+)
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/background".text = ''
+(
+    base: (
+        red: 0.005221679,
+        green: 0.00038915128,
+        blue: 0.07285899,
+        alpha: 1.0,
+    ),
+    component: (
+        base: (
+            red: 0.039080232,
+            green: 0.047118947,
+            blue: 0.1528433,
+            alpha: 1.0,
+        ),
+        hover: (
+            red: 0.1351722,
+            green: 0.14240704,
+            blue: 0.23755893,
+            alpha: 1.0,
+        ),
+        pressed: (
+            red: 0.23126417,
+            green: 0.23769514,
+            blue: 0.32227457,
+            alpha: 1.0,
+        ),
+        selected: (
+            red: 0.1351722,
+            green: 0.14240704,
+            blue: 0.23755893,
+            alpha: 1.0,
+        ),
+        selected_text: (
+            red: 0.3882353,
+            green: 0.8156863,
+            blue: 0.8745098,
+            alpha: 1.0,
+        ),
+        focus: (
+            red: 0.3882353,
+            green: 0.8156863,
+            blue: 0.8745098,
+            alpha: 1.0,
+        ),
+        divider: (
+            red: 0.842651,
+            green: 0.842651,
+            blue: 0.8426508,
+            alpha: 0.2,
+        ),
+        on: (
+            red: 0.842651,
+            green: 0.842651,
+            blue: 0.8426508,
+            alpha: 1.0,
+        ),
+        disabled: (
+            red: 0.039080232,
+            green: 0.047118947,
+            blue: 0.1528433,
+            alpha: 0.5,
+        ),
+        on_disabled: (
+            red: 0.842651,
+            green: 0.842651,
+            blue: 0.8426508,
+            alpha: 0.65,
+        ),
+        border: (
+            red: 0.7432059,
+            green: 0.7432059,
+            blue: 0.7432057,
+            alpha: 1.0,
+        ),
+        disabled_border: (
+            red: 0.7432059,
+            green: 0.7432059,
+            blue: 0.7432057,
+            alpha: 0.5,
+        ),
+    ),
+    divider: (
+        red: 0.15231475,
+        green: 0.14844874,
+        blue: 0.20642458,
+        alpha: 1.0,
+    ),
+    on: (
+        red: 0.740687,
+        green: 0.7406871,
+        blue: 0.74068695,
+        alpha: 1.0,
+    ),
+    small_widget: (
+        red: 0.036537625,
+        green: 0.036537714,
+        blue: 0.036537625,
+        alpha: 0.25,
+    ),
+)
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/button".text = ''
+(
+    base: (
+        red: 0.6204993,
+        green: 0.62049943,
+        blue: 0.6204992,
+        alpha: 0.25,
+    ),
+    hover: (
+        red: 0.38796422,
+        green: 0.3879643,
+        blue: 0.38796416,
+        alpha: 0.4,
+    ),
+    pressed: (
+        red: 0.16715194,
+        green: 0.167152,
+        blue: 0.16715191,
+        alpha: 0.625,
+    ),
+    selected: (
+        red: 0.38796422,
+        green: 0.3879643,
+        blue: 0.38796416,
+        alpha: 0.4,
+    ),
+    selected_text: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    focus: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    divider: (
+        red: 0.842651,
+        green: 0.842651,
+        blue: 0.8426508,
+        alpha: 0.2,
+    ),
+    on: (
+        red: 0.842651,
+        green: 0.842651,
+        blue: 0.8426508,
+        alpha: 1.0,
+    ),
+    disabled: (
+        red: 0.6204993,
+        green: 0.62049943,
+        blue: 0.6204992,
+        alpha: 0.125,
+    ),
+    on_disabled: (
+        red: 0.842651,
+        green: 0.842651,
+        blue: 0.8426508,
+        alpha: 0.65,
+    ),
+    border: (
+        red: 0.7432059,
+        green: 0.7432059,
+        blue: 0.7432057,
+        alpha: 1.0,
+    ),
+    disabled_border: (
+        red: 0.7432059,
+        green: 0.7432059,
+        blue: 0.7432057,
+        alpha: 0.5,
+    ),
+)
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/destructive".text = ''
+(
+    base: (
+        red: 0.99215686,
+        green: 0.6313726,
+        blue: 0.627451,
+        alpha: 1.0,
+    ),
+    hover: (
+        red: 0.87144005,
+        green: 0.5828126,
+        blue: 0.5796754,
+        alpha: 1.0,
+    ),
+    pressed: (
+        red: 0.5391305,
+        green: 0.3587384,
+        blue: 0.35677758,
+        alpha: 1.0,
+    ),
+    selected: (
+        red: 0.87144005,
+        green: 0.5828126,
+        blue: 0.5796754,
+        alpha: 1.0,
+    ),
+    selected_text: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    focus: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    divider: (
+        red: -0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 1.0,
+    ),
+    on: (
+        red: -0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 1.0,
+    ),
+    disabled: (
+        red: 0.99215686,
+        green: 0.6313726,
+        blue: 0.627451,
+        alpha: 1.0,
+    ),
+    on_disabled: (
+        red: 0.49607843,
+        green: 0.3156863,
+        blue: 0.3137255,
+        alpha: 1.0,
+    ),
+    border: (
+        red: 0.99215686,
+        green: 0.6313726,
+        blue: 0.627451,
+        alpha: 1.0,
+    ),
+    disabled_border: (
+        red: 0.99215686,
+        green: 0.6313726,
+        blue: 0.627451,
+        alpha: 0.5,
+    ),
+)
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/destructive_button".text = ''
+(
+    base: (
+        red: 0.99215686,
+        green: 0.6313726,
+        blue: 0.627451,
+        alpha: 1.0,
+    ),
+    hover: (
+        red: 0.87144005,
+        green: 0.5828126,
+        blue: 0.5796754,
+        alpha: 1.0,
+    ),
+    pressed: (
+        red: 0.5391305,
+        green: 0.3587384,
+        blue: 0.35677758,
+        alpha: 1.0,
+    ),
+    selected: (
+        red: 0.87144005,
+        green: 0.5828126,
+        blue: 0.5796754,
+        alpha: 1.0,
+    ),
+    selected_text: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    focus: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    divider: (
+        red: 0.0129199885,
+        green: 0.01292001,
+        blue: 0.012919978,
+        alpha: 1.0,
+    ),
+    on: (
+        red: -0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 1.0,
+    ),
+    disabled: (
+        red: 0.99215686,
+        green: 0.6313726,
+        blue: 0.627451,
+        alpha: 1.0,
+    ),
+    on_disabled: (
+        red: -0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 0.5,
+    ),
+    border: (
+        red: 0.99215686,
+        green: 0.6313726,
+        blue: 0.627451,
+        alpha: 1.0,
+    ),
+    disabled_border: (
+        red: 0.99215686,
+        green: 0.6313726,
+        blue: 0.627451,
+        alpha: 0.5,
+    ),
+)
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/icon_button".text = ''
+(
+    base: (
+        red: 0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 0.0,
+    ),
+    hover: (
+        red: 0.38857284,
+        green: 0.38857287,
+        blue: 0.38857278,
+        alpha: 0.2,
+    ),
+    pressed: (
+        red: 0.08610416,
+        green: 0.08610424,
+        blue: 0.08610415,
+        alpha: 0.5,
+    ),
+    selected: (
+        red: 0.38857284,
+        green: 0.38857287,
+        blue: 0.38857278,
+        alpha: 0.2,
+    ),
+    selected_text: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    focus: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    divider: (
+        red: 0.7432059,
+        green: 0.7432059,
+        blue: 0.7432057,
+        alpha: 0.2,
+    ),
+    on: (
+        red: 0.7432059,
+        green: 0.7432059,
+        blue: 0.7432057,
+        alpha: 1.0,
+    ),
+    disabled: (
+        red: 0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 0.0,
+    ),
+    on_disabled: (
+        red: 0.7432059,
+        green: 0.7432059,
+        blue: 0.7432057,
+        alpha: 0.65,
+    ),
+    border: (
+        red: 0.7432059,
+        green: 0.7432059,
+        blue: 0.7432057,
+        alpha: 1.0,
+    ),
+    disabled_border: (
+        red: 0.7432059,
+        green: 0.7432059,
+        blue: 0.7432057,
+        alpha: 0.5,
+    ),
+)
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/link_button".text = ''
+(
+    base: (
+        red: 0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 0.0,
+    ),
+    hover: (
+        red: 0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 0.0,
+    ),
+    pressed: (
+        red: 0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 0.0,
+    ),
+    selected: (
+        red: 0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 0.0,
+    ),
+    selected_text: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    focus: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    divider: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 0.2,
+    ),
+    on: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    disabled: (
+        red: 0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 0.0,
+    ),
+    on_disabled: (
+        red: 0.19411765,
+        green: 0.40784314,
+        blue: 0.4372549,
+        alpha: 0.5,
+    ),
+    border: (
+        red: 0.7432059,
+        green: 0.7432059,
+        blue: 0.7432057,
+        alpha: 1.0,
+    ),
+    disabled_border: (
+        red: 0.7432059,
+        green: 0.7432059,
+        blue: 0.7432057,
+        alpha: 0.5,
+    ),
+)
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/palette".text = ''
+(
+    name: "cosmic-dark",
+    bright_red: (
+        red: 1.0,
+        green: 0.627451,
+        blue: 0.5647059,
+        alpha: 1.0,
+    ),
+    bright_green: (
+        red: 0.36862746,
+        green: 0.85882354,
+        blue: 0.54901963,
+        alpha: 1.0,
+    ),
+    bright_orange: (
+        red: 1.0,
+        green: 0.6392157,
+        blue: 0.49019608,
+        alpha: 1.0,
+    ),
+    gray_1: (
+        red: 0.105882354,
+        green: 0.105882354,
+        blue: 0.105882354,
+        alpha: 1.0,
+    ),
+    gray_2: (
+        red: 0.14901961,
+        green: 0.14901961,
+        blue: 0.14901961,
+        alpha: 1.0,
+    ),
+    neutral_0: (
+        red: 0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 1.0,
+    ),
+    neutral_1: (
+        red: 0.105882354,
+        green: 0.105882354,
+        blue: 0.105882354,
+        alpha: 1.0,
+    ),
+    neutral_2: (
+        red: 0.1882353,
+        green: 0.1882353,
+        blue: 0.1882353,
+        alpha: 1.0,
+    ),
+    neutral_3: (
+        red: 0.2784314,
+        green: 0.2784314,
+        blue: 0.2784314,
+        alpha: 1.0,
+    ),
+    neutral_4: (
+        red: 0.36862746,
+        green: 0.36862746,
+        blue: 0.36862746,
+        alpha: 1.0,
+    ),
+    neutral_5: (
+        red: 0.46666667,
+        green: 0.46666667,
+        blue: 0.46666667,
+        alpha: 1.0,
+    ),
+    neutral_6: (
+        red: 0.5686275,
+        green: 0.5686275,
+        blue: 0.5686275,
+        alpha: 1.0,
+    ),
+    neutral_7: (
+        red: 0.67058825,
+        green: 0.67058825,
+        blue: 0.67058825,
+        alpha: 1.0,
+    ),
+    neutral_8: (
+        red: 0.7764706,
+        green: 0.7764706,
+        blue: 0.7764706,
+        alpha: 1.0,
+    ),
+    neutral_9: (
+        red: 0.8862745,
+        green: 0.8862745,
+        blue: 0.8862745,
+        alpha: 1.0,
+    ),
+    neutral_10: (
+        red: 1.0,
+        green: 1.0,
+        blue: 1.0,
+        alpha: 1.0,
+    ),
+    accent_blue: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    accent_indigo: (
+        red: 0.6313726,
+        green: 0.7529412,
+        blue: 0.92156863,
+        alpha: 1.0,
+    ),
+    accent_purple: (
+        red: 0.90588236,
+        green: 0.6117647,
+        blue: 0.99607843,
+        alpha: 1.0,
+    ),
+    accent_pink: (
+        red: 1.0,
+        green: 0.6117647,
+        blue: 0.69411767,
+        alpha: 1.0,
+    ),
+    accent_red: (
+        red: 0.99215686,
+        green: 0.6313726,
+        blue: 0.627451,
+        alpha: 1.0,
+    ),
+    accent_orange: (
+        red: 1.0,
+        green: 0.6784314,
+        blue: 0.0,
+        alpha: 1.0,
+    ),
+    accent_yellow: (
+        red: 0.96862745,
+        green: 0.8784314,
+        blue: 0.38431373,
+        alpha: 1.0,
+    ),
+    accent_green: (
+        red: 0.57254905,
+        green: 0.8117647,
+        blue: 0.6117647,
+        alpha: 1.0,
+    ),
+    accent_warm_grey: (
+        red: 0.7921569,
+        green: 0.7294118,
+        blue: 0.7058824,
+        alpha: 1.0,
+    ),
+    ext_warm_grey: (
+        red: 0.60784316,
+        green: 0.5568628,
+        blue: 0.5411765,
+        alpha: 1.0,
+    ),
+    ext_orange: (
+        red: 1.0,
+        green: 0.6784314,
+        blue: 0.0,
+        alpha: 1.0,
+    ),
+    ext_yellow: (
+        red: 0.99607843,
+        green: 0.85882354,
+        blue: 0.2509804,
+        alpha: 1.0,
+    ),
+    ext_blue: (
+        red: 0.28235295,
+        green: 0.7254902,
+        blue: 0.78039217,
+        alpha: 1.0,
+    ),
+    ext_purple: (
+        red: 0.8117647,
+        green: 0.49019608,
+        blue: 1.0,
+        alpha: 1.0,
+    ),
+    ext_pink: (
+        red: 0.9764706,
+        green: 0.22745098,
+        blue: 0.5137255,
+        alpha: 1.0,
+    ),
+    ext_indigo: (
+        red: 0.24313726,
+        green: 0.53333336,
+        blue: 1.0,
+        alpha: 1.0,
+    ),
+)
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/primary".text = ''
+(
+    base: (
+        red: 0.020403828,
+        green: 0.022260057,
+        blue: 0.12286613,
+        alpha: 1.0,
+    ),
+    component: (
+        base: (
+            red: 0.06327581,
+            green: 0.074938126,
+            blue: 0.18343872,
+            alpha: 1.0,
+        ),
+        hover: (
+            red: 0.15694822,
+            green: 0.1674443,
+            blue: 0.26509482,
+            alpha: 1.0,
+        ),
+        pressed: (
+            red: 0.25062063,
+            green: 0.2599505,
+            blue: 0.34675092,
+            alpha: 1.0,
+        ),
+        selected: (
+            red: 0.15694822,
+            green: 0.1674443,
+            blue: 0.26509482,
+            alpha: 1.0,
+        ),
+        selected_text: (
+            red: 0.3882353,
+            green: 0.8156863,
+            blue: 0.8745098,
+            alpha: 1.0,
+        ),
+        focus: (
+            red: 0.3882353,
+            green: 0.8156863,
+            blue: 0.8745098,
+            alpha: 1.0,
+        ),
+        divider: (
+            red: 0.88150823,
+            green: 0.88150835,
+            blue: 0.8815081,
+            alpha: 0.2,
+        ),
+        on: (
+            red: 0.88150823,
+            green: 0.88150835,
+            blue: 0.8815081,
+            alpha: 1.0,
+        ),
+        disabled: (
+            red: 0.06327581,
+            green: 0.074938126,
+            blue: 0.18343872,
+            alpha: 0.5,
+        ),
+        on_disabled: (
+            red: 0.88150823,
+            green: 0.88150835,
+            blue: 0.8815081,
+            alpha: 0.65,
+        ),
+        border: (
+            red: 0.7432059,
+            green: 0.7432059,
+            blue: 0.7432057,
+            alpha: 1.0,
+        ),
+        disabled_border: (
+            red: 0.7432059,
+            green: 0.7432059,
+            blue: 0.7432057,
+            alpha: 0.5,
+        ),
+    ),
+    divider: (
+        red: 0.17714854,
+        green: 0.17863354,
+        blue: 0.25911838,
+        alpha: 1.0,
+    ),
+    on: (
+        red: 0.80412734,
+        green: 0.80412745,
+        blue: 0.8041273,
+        alpha: 1.0,
+    ),
+    small_widget: (
+        red: 0.07901404,
+        green: 0.07901413,
+        blue: 0.079014026,
+        alpha: 0.25,
+    ),
+)
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/secondary".text = ''
+(
+    base: (
+        red: 0.0550382,
+        green: 0.06561915,
+        blue: 0.1731731,
+        alpha: 1.0,
+    ),
+    component: (
+        base: (
+            red: 0.08021424,
+            green: 0.09375482,
+            blue: 0.2041668,
+            alpha: 1.0,
+        ),
+        hover: (
+            red: 0.17219281,
+            green: 0.18437934,
+            blue: 0.2837501,
+            alpha: 1.0,
+        ),
+        pressed: (
+            red: 0.2641714,
+            green: 0.27500385,
+            blue: 0.3633334,
+            alpha: 1.0,
+        ),
+        selected: (
+            red: 0.17219281,
+            green: 0.18437934,
+            blue: 0.2837501,
+            alpha: 1.0,
+        ),
+        selected_text: (
+            red: 0.3882353,
+            green: 0.8156863,
+            blue: 0.8745098,
+            alpha: 1.0,
+        ),
+        focus: (
+            red: 0.3882353,
+            green: 0.8156863,
+            blue: 0.8745098,
+            alpha: 1.0,
+        ),
+        divider: (
+            red: 0.90759414,
+            green: 0.9075942,
+            blue: 0.9075941,
+            alpha: 0.2,
+        ),
+        on: (
+            red: 0.90759414,
+            green: 0.9075942,
+            blue: 0.9075941,
+            alpha: 1.0,
+        ),
+        disabled: (
+            red: 0.08021424,
+            green: 0.09375482,
+            blue: 0.2041668,
+            alpha: 0.5,
+        ),
+        on_disabled: (
+            red: 0.90759414,
+            green: 0.9075942,
+            blue: 0.9075941,
+            alpha: 0.65,
+        ),
+        border: (
+            red: 0.7432059,
+            green: 0.7432059,
+            blue: 0.7432057,
+            alpha: 1.0,
+        ),
+        disabled_border: (
+            red: 0.7432059,
+            green: 0.7432059,
+            blue: 0.7432057,
+            alpha: 0.5,
+        ),
+    ),
+    divider: (
+        red: 0.21773443,
+        green: 0.2261992,
+        blue: 0.31224233,
+        alpha: 1.0,
+    ),
+    on: (
+        red: 0.8685193,
+        green: 0.86851937,
+        blue: 0.8685192,
+        alpha: 1.0,
+    ),
+    small_widget: (
+        red: 0.12446194,
+        green: 0.124462046,
+        blue: 0.12446194,
+        alpha: 0.25,
+    ),
+)
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/success".text = ''
+(
+    base: (
+        red: 0.57254905,
+        green: 0.8117647,
+        blue: 0.6117647,
+        alpha: 1.0,
+    ),
+    hover: (
+        red: 0.53575385,
+        green: 0.72712636,
+        blue: 0.56712633,
+        alpha: 1.0,
+    ),
+    pressed: (
+        red: 0.3293266,
+        green: 0.44893447,
+        blue: 0.34893444,
+        alpha: 1.0,
+    ),
+    selected: (
+        red: 0.53575385,
+        green: 0.72712636,
+        blue: 0.56712633,
+        alpha: 1.0,
+    ),
+    selected_text: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    focus: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    divider: (
+        red: -0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 1.0,
+    ),
+    on: (
+        red: -0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 1.0,
+    ),
+    disabled: (
+        red: 0.57254905,
+        green: 0.8117647,
+        blue: 0.6117647,
+        alpha: 1.0,
+    ),
+    on_disabled: (
+        red: 0.28627452,
+        green: 0.40588236,
+        blue: 0.30588236,
+        alpha: 1.0,
+    ),
+    border: (
+        red: 0.57254905,
+        green: 0.8117647,
+        blue: 0.6117647,
+        alpha: 1.0,
+    ),
+    disabled_border: (
+        red: 0.57254905,
+        green: 0.8117647,
+        blue: 0.6117647,
+        alpha: 0.5,
+    ),
+)
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/text_button".text = ''
+(
+    base: (
+        red: 0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 0.0,
+    ),
+    hover: (
+        red: 0.38857284,
+        green: 0.38857287,
+        blue: 0.38857278,
+        alpha: 0.2,
+    ),
+    pressed: (
+        red: 0.08610416,
+        green: 0.08610424,
+        blue: 0.08610415,
+        alpha: 0.5,
+    ),
+    selected: (
+        red: 0.38857284,
+        green: 0.38857287,
+        blue: 0.38857278,
+        alpha: 0.2,
+    ),
+    selected_text: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    focus: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    divider: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 0.2,
+    ),
+    on: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    disabled: (
+        red: 0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 0.0,
+    ),
+    on_disabled: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 0.65,
+    ),
+    border: (
+        red: 0.7432059,
+        green: 0.7432059,
+        blue: 0.7432057,
+        alpha: 1.0,
+    ),
+    disabled_border: (
+        red: 0.7432059,
+        green: 0.7432059,
+        blue: 0.7432057,
+        alpha: 0.5,
+    ),
+)
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/warning".text = ''
+(
+    base: (
+        red: 0.96862745,
+        green: 0.8784314,
+        blue: 0.38431373,
+        alpha: 1.0,
+    ),
+    hover: (
+        red: 0.85261655,
+        green: 0.7804597,
+        blue: 0.38516554,
+        alpha: 1.0,
+    ),
+    pressed: (
+        red: 0.5273658,
+        green: 0.4822678,
+        blue: 0.23520894,
+        alpha: 1.0,
+    ),
+    selected: (
+        red: 0.85261655,
+        green: 0.7804597,
+        blue: 0.38516554,
+        alpha: 1.0,
+    ),
+    selected_text: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    focus: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    divider: (
+        red: -0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 1.0,
+    ),
+    on: (
+        red: -0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 1.0,
+    ),
+    disabled: (
+        red: 0.96862745,
+        green: 0.8784314,
+        blue: 0.38431373,
+        alpha: 1.0,
+    ),
+    on_disabled: (
+        red: 0.48431373,
+        green: 0.4392157,
+        blue: 0.19215687,
+        alpha: 1.0,
+    ),
+    border: (
+        red: 0.96862745,
+        green: 0.8784314,
+        blue: 0.38431373,
+        alpha: 1.0,
+    ),
+    disabled_border: (
+        red: 0.96862745,
+        green: 0.8784314,
+        blue: 0.38431373,
+        alpha: 0.5,
+    ),
+)
+
+'';
+
+  home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/warning_button".text = ''
+(
+    base: (
+        red: 0.96862745,
+        green: 0.8784314,
+        blue: 0.38431373,
+        alpha: 1.0,
+    ),
+    hover: (
+        red: 0.85261655,
+        green: 0.7804597,
+        blue: 0.38516554,
+        alpha: 1.0,
+    ),
+    pressed: (
+        red: 0.5273658,
+        green: 0.4822678,
+        blue: 0.23520894,
+        alpha: 1.0,
+    ),
+    selected: (
+        red: 0.85261655,
+        green: 0.7804597,
+        blue: 0.38516554,
+        alpha: 1.0,
+    ),
+    selected_text: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    focus: (
+        red: 0.3882353,
+        green: 0.8156863,
+        blue: 0.8745098,
+        alpha: 1.0,
+    ),
+    divider: (
+        red: 0.99999994,
+        green: 0.99999994,
+        blue: 0.9999997,
+        alpha: 1.0,
+    ),
+    on: (
+        red: -0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 1.0,
+    ),
+    disabled: (
+        red: 0.96862745,
+        green: 0.8784314,
+        blue: 0.38431373,
+        alpha: 1.0,
+    ),
+    on_disabled: (
+        red: -0.0,
+        green: 0.0,
+        blue: 0.0,
+        alpha: 0.5,
+    ),
+    border: (
+        red: 0.96862745,
+        green: 0.8784314,
+        blue: 0.38431373,
+        alpha: 1.0,
+    ),
+    disabled_border: (
+        red: 0.96862745,
+        green: 0.8784314,
+        blue: 0.38431373,
+        alpha: 0.5,
+    ),
+)
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/accent".text = ''
@@ -548,6 +2120,8 @@ Some((
     border: "#63D0DFFF",
     disabled_border: "#63D0DF80",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/accent_button".text = ''
@@ -565,6 +2139,8 @@ Some((
     border: "#63D0DFFF",
     disabled_border: "#63D0DF80",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/background".text = ''
@@ -588,6 +2164,8 @@ Some((
     on: "#C0C0C0FF",
     small_widget: "#0B0B0B40",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/button".text = ''
@@ -605,6 +2183,8 @@ Some((
     border: "#BEBEBEFF",
     disabled_border: "#BEBEBE80",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/destructive".text = ''
@@ -622,6 +2202,8 @@ Some((
     border: "#FFA09AFF",
     disabled_border: "#FFA09A80",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/destructive_button".text = ''
@@ -639,6 +2221,8 @@ Some((
     border: "#FFA09AFF",
     disabled_border: "#FFA09A80",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/icon_button".text = ''
@@ -656,6 +2240,8 @@ Some((
     border: "#BEBEBEFF",
     disabled_border: "#BEBEBE80",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/link_button".text = ''
@@ -673,6 +2259,8 @@ Some((
     border: "#BEBEBEFF",
     disabled_border: "#BEBEBE80",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/primary".text = ''
@@ -696,6 +2284,8 @@ Some((
     on: "#DDDDDDFF",
     small_widget: "#16161640",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/secondary".text = ''
@@ -719,6 +2309,8 @@ Some((
     on: "#E1E1E1FF",
     small_widget: "#22222240",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/shade".text = ''
@@ -728,6 +2320,8 @@ Some((
     blue: 0.0,
     alpha: 0.32,
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/success".text = ''
@@ -745,6 +2339,8 @@ Some((
     border: "#5EDB8CFF",
     disabled_border: "#5EDB8C80",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/text_button".text = ''
@@ -762,6 +2358,8 @@ Some((
     border: "#BEBEBEFF",
     disabled_border: "#BEBEBE80",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/transparent_background".text = ''
@@ -785,6 +2383,8 @@ Some((
     on: "#C0C0C0FF",
     small_widget: "#0B0B0B40",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/transparent_primary".text = ''
@@ -808,6 +2408,8 @@ Some((
     on: "#D0D0D0FF",
     small_widget: "#16161640",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/transparent_secondary".text = ''
@@ -831,6 +2433,8 @@ Some((
     on: "#E1E1E1FF",
     small_widget: "#22222240",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/warning".text = ''
@@ -848,6 +2452,8 @@ Some((
     border: "#FFA37DFF",
     disabled_border: "#FFA37D80",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/warning_button".text = ''
@@ -865,22 +2471,32 @@ Some((
     border: "#FFA37DFF",
     disabled_border: "#FFA37D80",
 )
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTk/v1/apply_theme_global".text = ''
 true
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTk/v1/header_size".text = ''
 Standard
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTk/v1/icon_theme".text = ''
 "Cosmic"
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTk/v1/interface_density".text = ''
 Standard
+
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTk/v1/interface_font".text = ''
@@ -890,6 +2506,8 @@ Standard
     stretch: Normal,
     style: Normal,
 )
+
+
 '';
 
   home.file.".config/cosmic/dev.edfloreshz.CosmicTweaks.ColorScheme/v1/current_config".text = ''
@@ -2599,6 +4217,8 @@ Some((
     source: Some(CosmicThemesOrg),
     path: None,
 ))
+
+
 '';
 
 }
