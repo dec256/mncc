@@ -113,6 +113,8 @@ hardware.nvidia = {
  environment.variables.EDITOR = "nvim";
 
   # --- keyd ---
+systemd.services.keyd.serviceConfig.Restart = "always";
+
  services.keyd = {
   enable = true;
   keyboards.default = {
@@ -163,6 +165,11 @@ hardware.nvidia = {
     proton-vpn         
     proton-vpn-cli
     cosmic-ext-applet-caffeine
+    
+    # Office stuff
+    libreoffice
+    hunspell
+    hunspellDicts.en_GB-large
 
     # Core CLI & Dev Utilities
     file
@@ -212,7 +219,17 @@ hardware.nvidia = {
     jq
   ];
 
+# --- bash alias ---
+environment.shellAliases = {
+    neovim = "nvim --clean";
+};
+
+# --- home manager ---
 home-manager.users."decwa" = { lib, pkgs, ... }: {
+  imports = [
+    ./cosmic.nix
+  ];
+
   home.stateVersion = "25.05";
 
   programs.bash = {
@@ -238,31 +255,6 @@ home-manager.users."decwa" = { lib, pkgs, ... }: {
   };
 
   xdg.configFile = lib.mkMerge [
-    (lib.listToAttrs (map (appId: {
-      name = "cosmic/${appId}";
-      value = {
-        source = ./cosmic/${appId};
-        recursive = true;
-	force = true;
-      };
-    }) [
-      "com.system76.CosmicBackground"
-      "com.system76.CosmicSettings"
-      "com.system76.CosmicSettings.Wallpaper"
-      "com.system76.CosmicSettings.Shortcuts"
-      "com.system76.CosmicTk"
-      "com.system76.CosmicNotifications"
-      "com.system76.CosmicPanelButton"
-      "com.system76.CosmicComp"
-      "com.system76.CosmicPanel"
-      "com.system76.CosmicPanel.Dock"
-      "com.system76.CosmicPanel.Panel"
-      "com.system76.CosmicPortal"
-      "com.system76.CosmicIdle"
-      "com.system76.CosmicAppList"
-      "com.system76.CosmicAppletTime"
-      "dev.edfloreshz.CosmicTweaks.ColorScheme"
-    ]))
     {
       "nvim" = {
         source = pkgs.fetchFromGitHub {
@@ -297,7 +289,7 @@ home-manager.users."decwa" = { lib, pkgs, ... }: {
 };
 
   nixpkgs.config.allowUnfree = true;
-
+# --- self maintainance ---
   nix.gc = {
     automatic = true;
     dates = "daily";

@@ -1,14 +1,1 @@
-{
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "z",
-    ): Minimize,
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "BackSpace",
-    ): Disable,
-}
+/nix/store/g0y98qvq0w1qijjhqja9hnqz84m3d2ak-home-manager-files/.config/cosmic/com.system76.CosmicSettings.Shortcuts/v1/custom.hm-backup

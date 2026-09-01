@@ -1,0 +1,32 @@
+use walkdir::WalkDir;
+use std::fs::OpenOptions;
+use std::io::Write;
+use std::path::Path;
+
+fn main() {
+    let mut paths = Vec::new();
+    let home = std::env::var("HOME").unwrap();
+    let path = format!("{}/.config/cosmic", home);
+    for i in WalkDir::new(path) {
+        let entry = i.unwrap();
+        if entry.file_type().is_file() {
+            paths.push(entry);
+        }
+    }
+
+    for i in paths {
+        let mut path = Path::new("");
+        //println!("{}", &i.path().display());
+        let content = std::fs::read_to_string(i.path()).unwrap();
+        //println!("{}", &content);
+        if let Some(home) = std::env::var_os("HOME") {
+            let home_path = Path::new(&home);
+            if let Ok(relative_path) = i.path().strip_prefix(home_path) {
+                path = relative_path;
+            }
+        }
+        let formats = format!("home.file.\"{}\".text = \'\'{}\'\';", path.display(), content);
+        println!("{formats}");
+        println!("");
+    }
+}
