@@ -165,6 +165,10 @@ systemd.services.keyd.serviceConfig.Restart = "always";
     proton-vpn         
     proton-vpn-cli
     cosmic-ext-applet-caffeine
+    cosmic-monitor
+
+    # Cool Optional stuff
+    cmatrix
     
     # Office stuff
     libreoffice
@@ -200,6 +204,7 @@ systemd.services.keyd.serviceConfig.Restart = "always";
     rust-analyzer
     clippy
     rustfmt
+    rustup
 
     # Go
     go
@@ -231,6 +236,10 @@ home-manager.users."decwa" = { lib, pkgs, ... }: {
   ];
 
   home.stateVersion = "25.05";
+
+  home.activation.removeOldHmBackups = lib.hm.dag.entryBefore [ "checkLinkTargets" ] ''
+      $DRY_RUN_CMD find "$HOME/.config/cosmic" -type f -name "*.hm-backup" -delete
+  '';
 
   programs.bash = {
     enable = true;

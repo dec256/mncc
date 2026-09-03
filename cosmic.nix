@@ -3,6 +3,7 @@
 true
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicAppList/v1/favorites".text = ''
@@ -17,10 +18,12 @@ true
 ]
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicAppList/v1/filter_top_levels".text = ''
 None
+
 
 
 '';
@@ -29,16 +32,19 @@ None
 0
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicAppletTime/v1/military_time".text = ''
 true
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicAppletTime/v1/show_seconds".text = ''
 true
+
 
 
 '';
@@ -55,10 +61,12 @@ true
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicBackground/v1/same-on-all".text = ''
 true
+
 
 
 '';
@@ -73,6 +81,7 @@ true
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/appearance_settings".text = ''
@@ -83,10 +92,12 @@ true
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/autotile".text = ''
 true
+
 
 
 '';
@@ -95,10 +106,12 @@ true
 PerWorkspace
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/cursor_follows_focus".text = ''
 false
+
 
 
 '';
@@ -107,10 +120,12 @@ false
 10
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/focus_follows_cursor".text = ''
 false
+
 
 
 '';
@@ -123,6 +138,7 @@ false
         speed: 0.6042271248762552,
     )),
 )
+
 
 
 '';
@@ -146,6 +162,7 @@ false
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicComp/v1/workspaces".text = ''
@@ -155,6 +172,7 @@ false
     action_on_typing: r#None,
     workspace_wraparound: true,
 )
+
 
 
 '';
@@ -171,6 +189,7 @@ false
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicFiles/v1/dialog".text = ''
@@ -184,6 +203,7 @@ false
     show_hidden: false,
     view: List,
 )
+
 
 
 '';
@@ -204,10 +224,12 @@ false
 ]
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicIdle/v1/screen_off_time".text = ''
 Some(900000)
+
 
 
 '';
@@ -216,10 +238,12 @@ Some(900000)
 Some(900000)
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicIdle/v1/suspend_on_battery_time".text = ''
 Some(900000)
+
 
 
 '';
@@ -228,10 +252,12 @@ Some(900000)
 Top
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicNotifications/v1/do_not_disturb".text = ''
 false
+
 
 
 '';
@@ -240,10 +266,12 @@ false
 3
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicNotifications/v1/max_per_app".text = ''
 2
+
 
 
 '';
@@ -252,10 +280,12 @@ false
 Some(3000)
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicNotifications/v1/max_timeout_normal".text = ''
 Some(5000)
+
 
 
 '';
@@ -264,24 +294,24 @@ Some(5000)
 None
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/anchor".text = ''
 Bottom
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/anchor_gap".text = ''
 true
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/autohide".text = ''
-OnOverlap
-
-
+Some((
+    wait_time: 1000,
+    transition_time: 200,
+    handle_size: 4,
+    unhide_delay: 200,
+))
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/autohide_behavior".text = ''
@@ -293,90 +323,66 @@ OnOverlap
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/autohover_delay_ms".text = ''
 Some(500)
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/background".text = ''
 ThemeDefault
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/border_radius".text = ''
 160
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/exclusive_zone".text = ''
 false
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/expand_to_edges".text = ''
 false
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/keep_style_on_maximize".text = ''
 false
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/keyboard_interactivity".text = ''
 OnDemand
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/layer".text = ''
 Top
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/margin".text = ''
 4
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/name".text = ''
 "Dock"
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/opacity".text = ''
 0.7
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/output".text = ''
 All
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/padding".text = ''
 4
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/padding_overlap".text = ''
 0.5
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/plugins_center".text = ''
@@ -386,56 +392,43 @@ Some([
     "com.system76.CosmicPanelAppButton",
     "com.system76.CosmicAppList",
 ])
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/plugins_wings".text = ''
 None
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/size".text = ''
 L
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/size_center".text = ''
 None
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/size_wings".text = ''
 None
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Dock/v1/spacing".text = ''
 0
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/anchor".text = ''
 Top
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/anchor_gap".text = ''
 false
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/autohide".text = ''
-Never
-
-
+Some((
+    wait_time: 1000,
+    transition_time: 200,
+    handle_size: 4,
+    unhide_delay: 200,
+))
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/autohide_behavior".text = ''
@@ -447,98 +440,72 @@ Never
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/autohover_delay_ms".text = ''
 Some(500)
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/background".text = ''
 ThemeDefault
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/border_radius".text = ''
 0
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/exclusive_zone".text = ''
 true
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/expand_to_edges".text = ''
 true
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/keep_style_on_maximize".text = ''
 false
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/keyboard_interactivity".text = ''
 OnDemand
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/layer".text = ''
 Top
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/margin".text = ''
 0
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/name".text = ''
 "Panel"
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/opacity".text = ''
 0.7
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/output".text = ''
 All
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/padding".text = ''
 0
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/padding_overlap".text = ''
 0.5
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/plugins_center".text = ''
 Some([
     "com.system76.CosmicAppletTime",
 ])
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/plugins_wings".text = ''
@@ -559,32 +526,22 @@ Some(([
     "com.system76.CosmicAppletNotifications",
     "com.system76.CosmicAppletPower",
 ]))
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/size".text = ''
 XS
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/size_center".text = ''
 None
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/size_wings".text = ''
 None
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel.Panel/v1/spacing".text = ''
 0
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanel/v1/entries".text = ''
@@ -592,8 +549,6 @@ None
     "Panel",
     "Dock",
 ]
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPanelButton/v1/configs".text = ''
@@ -607,11 +562,12 @@ None
 }
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicPortal/v1/screenshot".text = ''
 (
-    save_location: Pictures,
+    save_location: Clipboard,
     choice: Rectangle,
     last_rectangle: Some((
         left: 0,
@@ -620,8 +576,6 @@ None
         bottom: 1152,
     )),
 )
-
-
 '';
 
   home.file.".config/cosmic/com.system76.CosmicSettings.Shortcuts/v1/custom".text = ''
@@ -633,6 +587,7 @@ None
         key: "z",
     ): Minimize,
 }
+
 
 
 '';
@@ -656,10 +611,12 @@ None
 ]
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicSettings.Wallpaper/v1/rotation-frequency".text = ''
 300
+
 
 
 '';
@@ -670,10 +627,12 @@ None
 ]
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTerm/v1/app_theme".text = ''
 System
+
 
 
 '';
@@ -682,16 +641,19 @@ System
 87
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTerm/v1/show_headerbar".text = ''
 false
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTerm/v1/tab_new_inherit_working_directory".text = ''
 false
+
 
 
 '';
@@ -704,6 +666,7 @@ Some((
     alpha: 1.0,
 ))
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark.Builder/v1/neutral_tint".text = ''
@@ -712,6 +675,7 @@ Some((
     green: 0.0,
     blue: 0.52074265,
 ))
+
 
 '';
 
@@ -724,6 +688,7 @@ Some((
 ))
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark.Builder/v2/neutral_tint".text = ''
@@ -732,6 +697,7 @@ Some((
     green: 0.018873796,
     blue: 0.35739714,
 ))
+
 
 
 '';
@@ -812,6 +778,7 @@ Some((
     ),
 )
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/accent_button".text = ''
@@ -889,6 +856,7 @@ Some((
         alpha: 0.5,
     ),
 )
+
 
 '';
 
@@ -994,6 +962,7 @@ Some((
     ),
 )
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/button".text = ''
@@ -1071,6 +1040,7 @@ Some((
         alpha: 0.5,
     ),
 )
+
 
 '';
 
@@ -1150,6 +1120,7 @@ Some((
     ),
 )
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/destructive_button".text = ''
@@ -1227,6 +1198,7 @@ Some((
         alpha: 0.5,
     ),
 )
+
 
 '';
 
@@ -1306,6 +1278,7 @@ Some((
     ),
 )
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/link_button".text = ''
@@ -1383,6 +1356,7 @@ Some((
         alpha: 0.5,
     ),
 )
+
 
 '';
 
@@ -1583,6 +1557,7 @@ Some((
     ),
 )
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/primary".text = ''
@@ -1686,6 +1661,7 @@ Some((
         alpha: 0.25,
     ),
 )
+
 
 '';
 
@@ -1791,6 +1767,7 @@ Some((
     ),
 )
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/success".text = ''
@@ -1868,6 +1845,7 @@ Some((
         alpha: 0.5,
     ),
 )
+
 
 '';
 
@@ -1947,6 +1925,7 @@ Some((
     ),
 )
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v1/warning".text = ''
@@ -2024,6 +2003,7 @@ Some((
         alpha: 0.5,
     ),
 )
+
 
 '';
 
@@ -2103,6 +2083,7 @@ Some((
     ),
 )
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/accent".text = ''
@@ -2122,6 +2103,7 @@ Some((
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/accent_button".text = ''
@@ -2139,6 +2121,7 @@ Some((
     border: "#63D0DFFF",
     disabled_border: "#63D0DF80",
 )
+
 
 
 '';
@@ -2166,6 +2149,7 @@ Some((
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/button".text = ''
@@ -2183,6 +2167,7 @@ Some((
     border: "#BEBEBEFF",
     disabled_border: "#BEBEBE80",
 )
+
 
 
 '';
@@ -2204,6 +2189,7 @@ Some((
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/destructive_button".text = ''
@@ -2221,6 +2207,7 @@ Some((
     border: "#FFA09AFF",
     disabled_border: "#FFA09A80",
 )
+
 
 
 '';
@@ -2242,6 +2229,7 @@ Some((
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/link_button".text = ''
@@ -2259,6 +2247,7 @@ Some((
     border: "#BEBEBEFF",
     disabled_border: "#BEBEBE80",
 )
+
 
 
 '';
@@ -2286,6 +2275,7 @@ Some((
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/secondary".text = ''
@@ -2311,6 +2301,7 @@ Some((
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/shade".text = ''
@@ -2320,6 +2311,7 @@ Some((
     blue: 0.0,
     alpha: 0.32,
 )
+
 
 
 '';
@@ -2341,6 +2333,7 @@ Some((
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/text_button".text = ''
@@ -2358,6 +2351,7 @@ Some((
     border: "#BEBEBEFF",
     disabled_border: "#BEBEBE80",
 )
+
 
 
 '';
@@ -2385,6 +2379,7 @@ Some((
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/transparent_primary".text = ''
@@ -2408,6 +2403,7 @@ Some((
     on: "#D0D0D0FF",
     small_widget: "#16161640",
 )
+
 
 
 '';
@@ -2435,6 +2431,7 @@ Some((
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTheme.Dark/v2/warning".text = ''
@@ -2452,6 +2449,7 @@ Some((
     border: "#FFA37DFF",
     disabled_border: "#FFA37D80",
 )
+
 
 
 '';
@@ -2473,10 +2471,12 @@ Some((
 )
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTk/v1/apply_theme_global".text = ''
 true
+
 
 
 '';
@@ -2485,16 +2485,19 @@ true
 Standard
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTk/v1/icon_theme".text = ''
 "Cosmic"
 
 
+
 '';
 
   home.file.".config/cosmic/com.system76.CosmicTk/v1/interface_density".text = ''
 Standard
+
 
 
 '';
@@ -2506,6 +2509,7 @@ Standard
     stretch: Normal,
     style: Normal,
 )
+
 
 
 '';
@@ -4217,6 +4221,7 @@ Some((
     source: Some(CosmicThemesOrg),
     path: None,
 ))
+
 
 
 '';
